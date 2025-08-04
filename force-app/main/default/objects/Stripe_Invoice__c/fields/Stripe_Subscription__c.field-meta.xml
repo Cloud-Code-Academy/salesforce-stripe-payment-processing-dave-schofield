@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Subscription__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the Stripe Subscription for this invoice</description>
+    <externalId>false</externalId>
+    <label>Stripe Subscription</label>
+    <referenceTo>Stripe_Subscription__c</referenceTo>
+    <relationshipLabel>Invoices</relationshipLabel>
+    <relationshipName>Invoices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField> 

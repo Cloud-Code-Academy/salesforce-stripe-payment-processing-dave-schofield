@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set for users who need to bypass Stripe customer creation during data imports or bulk operations by controlling access to the Stripe_Customer_ID__c field.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Stripe Integration Bypass</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Stripe_Customer_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet> 

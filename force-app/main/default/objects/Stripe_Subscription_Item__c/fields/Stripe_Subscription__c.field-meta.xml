@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Subscription__c</fullName>
+
+    <description>Reference to the Stripe Subscription for this item</description>
+    <externalId>false</externalId>
+    <label>Stripe Subscription</label>
+    <referenceTo>Stripe_Subscription__c</referenceTo>
+    <relationshipLabel>Subscription Items</relationshipLabel>
+    <relationshipName>Subscription_Items</relationshipName>
+
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+</CustomField> 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Behavior__c</fullName>
+    <description>Specifies whether the price is considered inclusive of taxes or exclusive of taxes. Once specified as either inclusive or exclusive, it cannot be changed.</description>
+    <label>Tax Behavior</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>exclusive</fullName>
+                <default>true</default>
+                <label>Exclusive</label>
+            </value>
+            <value>
+                <fullName>inclusive</fullName>
+                <default>false</default>
+                <label>Inclusive</label>
+            </value>
+            <value>
+                <fullName>unspecified</fullName>
+                <default>false</default>
+                <label>Unspecified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
