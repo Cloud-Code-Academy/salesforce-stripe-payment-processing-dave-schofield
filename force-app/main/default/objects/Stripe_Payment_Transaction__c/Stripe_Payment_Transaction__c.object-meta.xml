@@ -51,16 +51,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-
-    <label>Stripe Subscription</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Payment Transaction</label>
     <nameField>
-        <displayFormat>SUB-{000000}</displayFormat>
-        <label>Subscription Number</label>
+        <displayFormat>PMT-{000000}</displayFormat>
+        <label>Stripe Payment Transaction Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Stripe Subscriptions</pluralLabel>
+    <pluralLabel>Stripe Payment Transactions</pluralLabel>
     <searchLayouts />
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

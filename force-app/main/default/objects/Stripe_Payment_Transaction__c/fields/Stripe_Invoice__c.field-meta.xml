@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Invoice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the Stripe Invoice for this payment transaction</description>
+    <externalId>false</externalId>
+    <label>Stripe Invoice</label>
+    <referenceTo>Stripe_Invoice__c</referenceTo>
+    <relationshipLabel>Stripe Payment Transactions</relationshipLabel>
+    <relationshipName>Stripe_Payment_Transactions_Invoice</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField> 

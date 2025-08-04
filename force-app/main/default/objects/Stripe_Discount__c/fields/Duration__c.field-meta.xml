@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration__c</fullName>
+    <description>Duration of the discount</description>
+    <externalId>false</externalId>
+    <label>Duration</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Once</fullName>
+                <default>false</default>
+                <label>Once</label>
+            </value>
+            <value>
+                <fullName>Repeating</fullName>
+                <default>false</default>
+                <label>Repeating</label>
+            </value>
+            <value>
+                <fullName>Forever</fullName>
+                <default>false</default>
+                <label>Forever</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField> 
