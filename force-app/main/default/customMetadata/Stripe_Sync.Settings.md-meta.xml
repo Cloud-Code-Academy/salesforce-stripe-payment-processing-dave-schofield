@@ -3,6 +3,14 @@
     <label>Settings</label>
     <protected>false</protected>
     <values>
+        <field>Checkout_Error_URL__c</field>
+        <value xsi:type="xsd:string">https://youtu.be/dQw4w9WgXcQ?si=5gl5beWGei9NbbWi</value>
+    </values>
+    <values>
+        <field>Checkout_Success_URL__c</field>
+        <value xsi:type="xsd:string">https://youtu.be/3GwjfUFyY6M?si=7-io6HZQm1PdzjLr</value>
+    </values>
+    <values>
         <field>Contacts_Inbound__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
@@ -12,10 +20,10 @@
     </values>
     <values>
         <field>Subscriptions_Inbound__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>Subscriptions_Outbound__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
 </CustomMetadata>

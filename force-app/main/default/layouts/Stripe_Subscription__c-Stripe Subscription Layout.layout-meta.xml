@@ -9,6 +9,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Contact__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Stripe_Price__c</field>
             </layoutItems>
             <layoutItems>
@@ -30,6 +34,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Stripe_Subscription_ID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Checkout_URL__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Stripe_Checkout_Session_ID__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -77,14 +89,6 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Checkout_URL__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Stripe_Checkout_Session_ID__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
             </layoutItems>
@@ -108,6 +112,7 @@
     <miniLayout>
         <fields>Stripe_Price__c</fields>
         <fields>Stripe_Product__c</fields>
+        <fields>Contact__c</fields>
     </miniLayout>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
