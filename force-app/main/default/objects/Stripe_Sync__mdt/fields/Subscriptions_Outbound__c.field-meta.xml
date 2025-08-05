@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscriptions_Outbound__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Subscriptions Salesforce to Stripe</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Subscriptions_Outbound</label>
+    <type>Checkbox</type>
+</CustomField>

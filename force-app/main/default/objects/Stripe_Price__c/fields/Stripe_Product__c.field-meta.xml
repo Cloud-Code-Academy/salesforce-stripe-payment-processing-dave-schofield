@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Product__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Reference to the Stripe Product this price belongs to</description>
+    <label>Stripe Product</label>
+    <referenceTo>Stripe_Product__c</referenceTo>
+    <relationshipLabel>Stripe Prices</relationshipLabel>
+    <relationshipName>Stripe_Prices</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

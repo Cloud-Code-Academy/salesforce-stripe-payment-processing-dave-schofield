@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="https://soap.sforce.com/2006/04/metadata">
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Stripe_Checkout_Session_ID__c</fullName>
+    <description>Stripe checkout session identifier for tracking payment completion and webhook processing.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Unique identifier for the Stripe checkout session. Used for webhook processing and payment tracking.</inlineHelpText>
     <label>Stripe Checkout Session ID</label>
     <length>255</length>
     <required>false</required>
